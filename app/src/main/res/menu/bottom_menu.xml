@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/footballFragment"
+        android:title="@string/football"
+        android:icon="@drawable/ic_baseline_sports_soccer_24" />
+
+    <item
+        android:id="@+id/basketballFragment"
+        android:title="@string/basketball"
+        android:icon="@drawable/ic_baseline_sports_basketball_24" />
+
+    <item
+        android:id="@+id/tennisFragment"
+        android:title="@string/tennis"
+        android:icon="@drawable/ic_baseline_sports_tennis_24"/>
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/footballFragment">
+
+    <fragment
+        android:id="@+id/footballFragment"
+        android:name="com.example.finallivescore.Football.FootballFragment"
+        android:label="football_fragment"
+        tools:layout="@layout/football_fragment" />
+    <fragment
+        android:id="@+id/basketballFragment"
+        android:name="com.example.finallivescore.Basketball.BasketballFragment"
+        android:label="basketball_fragment"
+        tools:layout="@layout/basketball_fragment" />
+    <fragment
+        android:id="@+id/tennisFragment"
+        android:name="com.example.finallivescore.Tennis.TennisFragment"
+        android:label="tennis_fragment"
+        tools:layout="@layout/tennis_fragment" />
+</navigation>
